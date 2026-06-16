@@ -34,12 +34,12 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(58, 4, 235, 0.638);
 
     transition: width .3s, height .3s;
-    transition-timing-function: ea;
+    transition-timing-function: ease;
 }
 
 section#login >  div#imagem {
@@ -47,7 +47,7 @@ section#login >  div#imagem {
     background: #5F2C82 url(../IMAGENS/pexels-cesar-coni-871717-16216526.jpg) no-repeat;
     background-size: cover;
     background-position: top;
-    height: 300px;
+    height: 200px;
 }
 
 section#login > div#formulario {
@@ -63,6 +63,57 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+form > input[type=submit] {
+
+    display: block;
+
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+
+    background-color: rgba(84, 76, 145, 0.657);
+
+    border-radius: 100px;
+    border: none;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+
+}
+
+form > input[type=submit]:hover {
+     
+    background-color: rgba(43, 26, 179, 0.463);
+}
+
+form > a.botão {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+
+    width: 100%;
+    height: 40px;
+
+    background-color: white;
+
+    border: 1px solid rgba(43, 26, 179, 0.463);
+    border-radius: 100px;
+
+    text-decoration: none;
+    
+    color: rgba(255, 1, 1, 0.335);
+    font-weight: bolder;
+}
+
+form > a.botão:hover {
+    background-color:  rgba(43, 26, 179, 0.463);
+}
+
+
 
 
 
